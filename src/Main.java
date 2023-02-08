@@ -75,7 +75,6 @@ public class Main {
             }
             return sum;
         }
-
         public static Employee getMinSalaryEmployee(Employee[] employees) {
                 Employee employeeMinSalary = employees[0];
             for (Employee employee : employees) {
